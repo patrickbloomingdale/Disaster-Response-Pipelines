@@ -12,3 +12,5 @@
     `python run.py`
 
 3. Go to http://0.0.0.0:3001/
+
+![Disaster-Response-Pipelines](https://github.com/patrickbloomingdale/Disaster-Response-Pipelines/blob/main/Disaster-Response-Project.JPG?raw=true)
