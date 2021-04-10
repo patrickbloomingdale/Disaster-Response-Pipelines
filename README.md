@@ -1,4 +1,33 @@
 # Disaster Response Pipeline Project
+![Disaster-Response-Pipelines](https://github.com/patrickbloomingdale/Disaster-Response-Pipelines/blob/main/Disaster-Response-Project.JPG?raw=true)
+
+***
+
+## Project Components
+There are three components for this project.
+
+**1. ETL Pipeline**
+In a Python script, `process_data.py`, write a data cleaning pipeline that:
+ - Loads the `messages` and `categories` datasets
+ - Merges the two datasets
+ - Cleans the data
+ - Stores it in a SQLite database
+ 
+**2. ML Pipeline**
+In a Python script, `train_classifier.py`, write a machine learning pipeline that:
+ - Loads data from the SQLite database
+ - Splits the dataset into training and test sets
+ - Builds a text processing and machine learning pipeline
+ - Trains and tunes a model using GridSearchCV
+ - Outputs results on the test set
+ - Exports the final model as a pickle file
+ - 
+**3. Flask Web App**
+For this part, you'll need to:
+ - Modify file paths for database and model as needed
+ - Add data visualizations using Plotly in the web app. 
+
+***
 
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
@@ -13,4 +42,4 @@
 
 3. Go to http://0.0.0.0:3001/
 
-![Disaster-Response-Pipelines](https://github.com/patrickbloomingdale/Disaster-Response-Pipelines/blob/main/Disaster-Response-Project.JPG?raw=true)
+
